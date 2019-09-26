@@ -1,5 +1,6 @@
 * {
-  font-family: Arial;
+  font-family: Candara;
+  text-align: center;
 }
 
 body {
@@ -23,12 +24,10 @@ h1 {
   color: hsl(150, 25%, 25%);
 }
 
-.megagoober {
-  color: #A569BD;
-}
-
 p {
   margin-left: 40px;
+  margin-right: 40px;
+  word-spacing: 0.001em;
 }
 
 hr {
@@ -37,6 +36,7 @@ hr {
 
 bold {
   text-transform: uppercase;
+  font-weight: 800;
 }
 
 div {
