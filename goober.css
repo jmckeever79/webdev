@@ -2,7 +2,62 @@
   font-family: Arial;
 }
 
+body {
+  background-color: #F6DDCC;
+}
+
+header {
+  background-color: hsl(240, 50%, 50%);
+  position: relative;
+  width: 100%;
+}
+
+footer {
+  background-color: #466995;
+  border-bottom: 15px solid #466995;
+  width: 100%;
+  margin: 20px;
+}
+
 h1 {
+  color: hsl(150, 25%, 25%);
+}
+
+.megagoober {
+  color: #A569BD;
+}
+
+p {
+  margin-left: 40px;
+}
+
+hr {
+  height: 50px;
+}
+
+bold {
+  text-transform: uppercase;
+}
+
+div {
   color: blue;
-  background-color: black;
+  font-size: 20px;
+  margin-left: 40px;
+  padding: 10px;
+  align-self: center;
+}
+
+ul {
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+li {
+  color: #FFF;
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: uppercase;
+  display: block;
 }
