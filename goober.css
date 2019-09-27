@@ -1,5 +1,5 @@
 * {
-  font-family: Candara;
+  font-family: "Space Mono";
   text-align: center;
 }
 
@@ -29,6 +29,7 @@ p {
   margin-left: 40px;
   margin-right: 40px;
   word-spacing: 0.001em;
+  line-height: 50px;
 }
 
 hr {
@@ -61,4 +62,29 @@ li {
   font-weight: 300;
   text-transform: uppercase;
   display: block;
+}
+
+.locations header {
+  background-color: coral;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  padding: 30px;
+  text-align: center;
+}
+
+.locations {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+h3:hover {
+  text-transform: uppercase;
+}
+
+#london {
+  grid-area: 2 / 1 / 4 / 3;
+}
+
+#mom {
+  grid-area: 6 / 1 / 8 / 3;
 }
