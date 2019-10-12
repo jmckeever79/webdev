@@ -4,8 +4,19 @@
     <meta charset="utf-8">
     <title>Welcome to HELL</title>
     <link rel="stylesheet" href="styling.css" type="text/css"/>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        console.log("setting image");
+        var t = document.querySelector(".top");
+        var g = document.createElement("img");
+        g.setAttribute("src", "https://media.giphy.com/media/3s7Jl1xafxWu0qDBoA/giphy.gif");
+        t.appendChild(g);
+        console.log("image set");
+      });
+    </script>
   </head>
-  <body onload="foo()">
+
+  <body>
     <div class="top">
       <h1 id="main-heading">
         666
@@ -31,18 +42,24 @@
         <li>Third</li>
       </ul>
     </h1>
-  </body>
 
-  <footer>
-    <div>
-      <h2>Links</h2>
-      <ol>
-        <li><a target="_blank" href="http://www.ironmaiden.com">Iron Maiden</a></li>
-        <li><a target="_blank" href="https://hells-angels.com/">Hell's Angels</a></li>
-        <li><a target="_blank" id="hk" href="https://twitter.com/HellsKitchenFOX">Hell's Kitchen</a></li>
-      </ol>
+    <div class="bottom">
+      <h1>
+        "I've hit rock bottom."
+      </h1>
     </div>
-  </footer>
+
+    <footer>
+      <div>
+        <h2>Links</h2>
+        <ol>
+          <li><a target="_blank" href="http://www.ironmaiden.com">Iron Maiden</a></li>
+          <li><a target="_blank" href="https://hells-angels.com/">Hell's Angels</a></li>
+          <li><a target="_blank" id="hk" href="https://twitter.com/HellsKitchenFOX">Hell's Kitchen</a></li>
+        </ol>
+      </div>
+    </footer>
+  </body>
 
   <script type="text/javascript" src="app.js"></script>
 </html>
