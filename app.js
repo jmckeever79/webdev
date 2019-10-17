@@ -60,12 +60,12 @@ hkLink.addEventListener("click", anotherFooFunc);
 
 var one = performance.now();
 var f = document.querySelector("body footer");
-var newDiv = document.createElement("div");
+var frag = document.createDocumentFragment();
 for (var i = 0; i < 10000; i++) {
   var p = document.createElement("p");
   p.textContent = "REDRUM";
-  newDiv.appendChild(p);
+  frag.appendChild(p);
 }
-f.appendChild(newDiv);
+f.appendChild(frag);
 var two = performance.now();
 console.log("This operation required ${0} ms", two-one);
